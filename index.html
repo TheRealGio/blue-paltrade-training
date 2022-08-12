@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <!-- Standard Header the only addition is the implementation of fontawesome & Logo for tab -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <!--Logo in Tab for non apple users-->
+
+    <link rel="icon" type="image/png" href="Images/logotitle.png">
+    <!-- For apple devices The logo in the tab-->
+    <link rel="apple-touch-icon" type="image/png" href="Images/logotitle.png">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+    <title>PalTrade Replica</title>
+
+</head>
+
+
+
+<body>
+    <div class="container">
+        <!-- This acts as a center to the nav-div (BS4) -->
+        <div class="nav-div">
+            <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="CollapsingButtonItems" aria-controls="CollapsingButtonItems" aria-expanded="false" aria-label="Toggle navigation" ></button> -->
+
+            <!--This contains everything in the navigation bar-->
+            <nav class="navbar n navbar-expand-lg positioning">
+
+                <!-- required by BS4 for responsiveness and color schemes -->
+                <a class="navbar-brand PalTrade-Logo" href="/index.html"><img src="./Images/logo.png"
+                        alt="PalTradeLogo"></a>
+                <div class="dropdown resp">
+                    <!--THIS is the nav  menu we used an unordered list & BS4-->
+                    <ul id="dropdownNavBar" class="nav navbar-nav burger-menu">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link nav-element " href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ABOUT US <i
+                                    class="fas fa-angle-down"></i></a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Item1</a>
+                                <a class="dropdown-item" href="#">Item2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link nav-element " href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EXPORT SERVICES <i
+                                    class="fas fa-angle-down"></i></a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Item1</a>
+                                <a class="dropdown-item" href="#">Item2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link nav-element " href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PALESTINE-YOUR PARTNER
+                                <i class="fas fa-angle-down"></i></a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Item1</a>
+                                <a class="dropdown-item" href="#">Item2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link nav-element " href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MEDIA CENTER <i
+                                    class="fas fa-angle-down"></i></a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Item1</a>
+                                <a class="dropdown-item" href="#">Item2</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link nav-element " href="#" role="button">CLIENT SUPPORT</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link nav-element " href="#" role="button">PUBLICATIONS</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class=" nav-element splitter"></div>
+                <!--This is the grey seperator between the words and icons in site-->
+                <div id="TopRightIcons">
+                    <!--Icon container-->
+                    <i class="fas fa-share-alt nav-element ShareIcon"></i>
+                    <i class="fas fa-search nav-element SearchIcon"></i>
+                    <i class="fas fa-globe nav-element ArabicIcon"></i>
+                    <i class="fas fa-mobile-alt nav-element DownloadPic"></i>
+                </div>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Used Jumbotron for background of Virtual Exhibition -->
+    <div>
+        <!-- Used Jumbotron for background of Virtual Exhibition -->
+        <div class="jumbotron-fluid">
+            <!-- Fluid to get it to extend infinitely -->
+            <!--Text Over Banner-->
+            <div class="VirtualExhibition container">
+
+                <div class="VirtualText">
+                    Virtual Exhibition
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="container-fluid menu">
+        <!-- Container fluid to get the whitesmoke background -->
+
+
+        <div class="container">
+            <!-- Container to center, we used card decks to show the exhibition as they are naturally responsive and they give us the desired look  -->
+            <div class="card-deck spacing">
+                <div class="card">
+                    <!-- This is a single card with a link to the main website of each company -->
+                    <a href="https://al-jebrini.com/newsite/">
+                        <!-- This section contains the top of the card which includes the photo and the little icon and circle on the right -->
+                        <div class="card--top">
+                            <img class="card-img-top" src="./Images/logo-02.png" alt="Card image cap">
+                            <div class="card--icon">
+                                <img class="Cheese" src="Images/Chesse.png" alt="Cheese">
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <!-- The body of the card consists of the title and the subtitle explaining what this company is and the text each styled accordingly -->
+                            <h5 class="card-title">AL-JEBRINI COMPANY</h5>
+                            <h6 class="card-subtitle CompanyType">DAIRY COMPANY</h6>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Temporibus vitae tempora quibusdam asperiores, nam enim fugiat nulla obcaecati
+                                exercitationem est.</p>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <!-- This is a single card with a link to the main website of each company -->
+                    <a href="http://www.waleedstone.com/">
+                        <!-- This section contains the top of the card which includes the photo and the little icon and circle on the right -->
+                        <div class="card--top">
+                            <img class="card-img-top" src="./Images/AlWaleed.jpg" alt="Card image cap">
+                            <div class="card--icon">
+                                <img class="Factory" src="./Images/factory.png" alt="Factory">
+                            </div>
+                        </div>
+
+
+
+                        <div class="card-body">
+                            <!-- The body of the card consists of the title and the subtitle explaining what this company is and the text each styled accordingly -->
+                            <h5 class="card-title">AL-WALEED STONE</h5>
+                            <h6 class="card-subtitle CompanyType1">MANUFACTURING</h6>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Alias
+                                adipisci aspernatur placeat ea deleniti quasi culpa quaerat esse a dolor?</p>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <!-- This is a single card with a link to the main website of each company -->
+                    <a href="http://www.alhijaz.ps/en/">
+                        <!-- This section contains the top of the card which includes the photo and the little icon and circle on the right -->
+                        <div class="card--top">
+                            <img class="card-img-top" src="./Images/ALHIJAZ.jpg" alt="Card image cap">
+
+
+                            <div class="card--icon">
+                                <img class="Chocolate" src="./Images/chocolate.png" alt="Chocolate">
+                            </div>
+                        </div>
+
+
+
+                        <div class="card-body">
+                            <!-- The body of the card consists of the title and the subtitle explaining what this company is and the text each styled accordingly -->
+                            <h5 class="card-title">AL-HIJAZ CHOCOLATE LTD</h5>
+                            <h6 class="card-subtitle CompanyType2">DAIRY PRODUCTS</h6>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Assumenda expedita, unde natus doloremque repellat recusandae deserunt ea maiores aut
+                                enim.
+                            </p>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="card-deck spacing">
+                <!-- Card spacing to get the spacing between elements correctly -->
+                <div class="card">
+                    <!-- This is a single card with a link to the main website of each company -->
+                    <a href="https://al-jebrini.com/newsite/">
+                        <!-- This section contains the top of the card which includes the photo and the little icon and circle on the right -->
+
+                        <div class="card--top">
+                            <img class="card-img-top" src="./Images/logo-02.png" alt="Card image cap">
+                            <div class="card--icon">
+                                <img class="Cheese" src="Images/Chesse.png" alt="Cheese">
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <!-- The body of the card consists of the title and the subtitle explaining what this company is and the text each styled accordingly -->
+                            <h5 class="card-title">AL-JEBRINI COMPANY</h5>
+                            <h6 class="card-subtitle CompanyType">DAIRY COMPANY</h6>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Temporibus vitae tempora quibusdam asperiores, nam enim fugiat nulla obcaecati
+                                exercitationem est.</p>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <!-- This is a single card with a link to the main website of each company -->
+                    <a href="http://www.waleedstone.com/">
+                        <!-- This section contains the top of the card which includes the photo and the little icon and circle on the right -->
+                        <div class="card--top">
+                            <img class="card-img-top" src="./Images/AlWaleed.jpg" alt="Card image cap">
+                            <div class="card--icon">
+                                <img class="Factory" src="./Images/factory.png" alt="Factory">
+                            </div>
+                        </div>
+
+
+
+                        <div class="card-body">
+                            <!-- The body of the card consists of the title and the subtitle explaining what this company is and the text each styled accordingly -->
+                            <h5 class="card-title">AL-WALEED STONE</h5>
+                            <h6 class="card-subtitle CompanyType1">MANUFACTURING</h6>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Alias
+                                adipisci aspernatur placeat ea deleniti quasi culpa quaerat esse a dolor?</p>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <!-- This is a single card with a link to the main website of each company -->
+                    <a href="http://www.alhijaz.ps/en/">
+                        <!-- This section contains the top of the card which includes the photo and the little icon and circle on the right -->
+                        <div class="card--top">
+                            <img class="card-img-top" src="./Images/ALHIJAZ.jpg" alt="Card image cap">
+
+
+                            <div class="card--icon">
+                                <img class="Chocolate" src="./Images/chocolate.png" alt="Chocolate">
+                            </div>
+                        </div>
+
+
+
+                        <div class="card-body">
+                            <!-- The body of the card consists of the title and the subtitle explaining what this company is and the text each styled accordingly -->
+                            <h5 class="card-title">AL-HIJAZ CHOCOLATE LTD</h5>
+                            <h6 class="card-subtitle CompanyType2">DAIRY PRODUCTS</h6>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Assumenda expedita, unde natus doloremque repellat recusandae deserunt ea maiores aut
+                                enim.
+                            </p>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="card-deck spacing">
+                <div class="card">
+                    <!-- This is a single card with a link to the main website of each company -->
+                    <a href="https://al-jebrini.com/newsite/">
+                        <!-- This section contains the top of the card which includes the photo and the little icon and circle on the right -->
+
+                        <div class="card--top">
+                            <img class="card-img-top" src="./Images/logo-02.png" alt="Card image cap">
+                            <div class="card--icon">
+                                <img class="Cheese" src="Images/Chesse.png" alt="Cheese">
+                            </div>
+                        </div>
+
+                        <div class="card-body">
+                            <!-- The body of the card consists of the title and the subtitle explaining what this company is and the text each styled accordingly -->
+                            <h5 class="card-title">AL-JEBRINI COMPANY</h5>
+                            <h6 class="card-subtitle CompanyType">DAIRY COMPANY</h6>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                Temporibus vitae tempora quibusdam asperiores, nam enim fugiat nulla obcaecati
+                                exercitationem est.</p>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <!-- This is a single card with a link to the main website of each company -->
+                    <a href="http://www.waleedstone.com/">
+                        <!-- This section contains the top of the card which includes the photo and the little icon and circle on the right -->
+                        <div class="card--top">
+                            <img class="card-img-top" src="./Images/AlWaleed.jpg" alt="Card image cap">
+                            <div class="card--icon">
+                                <img class="Factory" src="./Images/factory.png" alt="Factory">
+                            </div>
+                        </div>
+
+
+
+                        <div class="card-body">
+                            <!-- The body of the card consists of the title and the subtitle explaining what this company is and the text each styled accordingly -->
+                            <h5 class="card-title">AL-WALEED STONE</h5>
+                            <h6 class="card-subtitle CompanyType1">MANUFACTURING</h6>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Alias
+                                adipisci aspernatur placeat ea deleniti quasi culpa quaerat esse a dolor?</p>
+
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <!-- This is a single card with a link to the main website of each company -->
+                    <a title="AL-HIJAZ CHOCOLATE LTD" href="http://www.alhijaz.ps/en/">
+                        <!-- This section contains the top of the card which includes the photo and the little icon and circle on the right -->
+                        <div class="card--top">
+                            <img class="card-img-top" src="./Images/ALHIJAZ.jpg" alt="Card image cap">
+
+
+                            <div class="card--icon">
+                                <img class="Chocolate" src="./Images/chocolate.png" alt="Chocolate">
+                            </div>
+                        </div>
+
+
+
+                        <div class="card-body">
+                            <!-- The body of the card consists of the title and the subtitle explaining what this company is and the text each styled accordingly -->
+                            <h5 class="card-title">AL-HIJAZ CHOCOLATE LTD</h5>
+                            <h6 class="card-subtitle CompanyType2">DAIRY PRODUCTS</h6>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Assumenda expedita, unde natus doloremque repellat recusandae deserunt ea maiores aut
+                                enim.
+                            </p>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="container">
+        <!-- Container for alignement -->
+
+
+
+        <div class="findUsWrapper">
+            <!--This is the wrapper that contains the text and the  social media Icons aligned Vertically Through this class-->
+
+
+            <div class="FindUs">
+                <!-- Contains Everything in the line-->
+                <div class="container">
+                    <!-- Reasoning fo this container is to contain the grey line -->
+                    <div class="line"></div>
+                    <!-- Grey Line -->
+                </div>
+                <div class="text-and-icons">
+                    <!-- Wrapper for Text and Icons -->
+                    <div class="FindUsText">
+                        Find Us On
+                    </div>
+                    <div class="MediaTab">
+                        <!-- Contains all Social Media Icons and is Used to give them a white background -->
+                        <div class="facebook socialMedia">
+                            <a href="https://www.facebook.com/PalestineTradeCenter/">
+                                <!-- Redirects you to PalTrade's Social  Media  -->
+                                <div>
+                                    <i class="social--icon  fab fa-facebook-f"></i>
+                                </div>
+                                <!--Icons by FontAwesome -->
+                            </a>
+                        </div>
+
+
+                        <div class="twitter socialMedia">
+                            <a href="https://twitter.com/pal_trade?lang=en">
+                                <!-- Redirects you to PalTrade's Social  Media  -->
+                                <div>
+                                    <i class="social--icon fab fa-twitter"></i>
+                                </div>
+                                <!--Icons by FontAwesome -->
+                            </a>
+                        </div>
+
+                        <div class="mail socialMedia">
+                            <!--| Question: how is it usually done for this tab?-->
+                            <a href="mailto:info@paltrade.org">
+                                <div>
+                                    <i class="social--icon far fa-envelope"></i>
+                                </div>
+                                <!--Icons by FontAwesome -->
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- Gives Dimensions -->
+        <div class="bottom">
+            <!--This contains all the contents below the line of FindUsOn and Centers them accordingly-->
+            <div class="row">
+                <!-- We used 1 row (BS4) and 3 columns to Divide the content up -->
+                <div class="col logoBottom">
+                    <!-- This column contains the logo and the text and it takes 1/3 of the width -->
+                    <a href="/index.html" class="logoWidth"><img class="PalTrade-LogoBottom" src="./Images/logo.png"
+                            alt="PalTradeLogo"></a>
+                    <div class="Text">RAMALLAH CITY ALWAHA Ipsum is simply dummy text of </div>
+
+                </div>
+                <div class="col">
+                    <!--This column contains the list and ittakes 1/3 of the width -->
+                    <ul class="bottomList">
+                        <li>Export Services</li>
+                        <li>Palestine Your Partner</li>
+                        <li>Media Center</li>
+                        <li>Client Support</li>
+                        <li>Trade Info Shortcuts</li>
+                    </ul>
+
+                </div>
+                <div class="col">
+                    <!-- This column takes the stay informed text and the form for the newsletter it takes 1/3 of the width -->
+                    <div class="bar">
+                        <!-- wrapper for all the stay informed,form and button -->
+                        <div class="stayInformed">
+                            <!-- Done with text and an icon from font awesome -->
+                            <i class="far fa-paper-plane"></i> Stay Informed
+                        </div>
+                        <!-- This is the bar for the submittion of email using newsletter -->
+                        <div class="envelope">
+                            <form class="input-email">
+                                <!-- Class to style elements below -->
+                                <span class="far fa-envelope"></span>
+                                <input class="input-field" type="text" placeholder="Email Address">
+
+                                <button class="submitbutton" type="submit" value="Submit">Submit</button>
+
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+
+
+        </div>
+    </div>
+    </div>
+
+
+
+</body>
+<!-- Scripts to support BS4 operations. -->
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="app.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</html>
